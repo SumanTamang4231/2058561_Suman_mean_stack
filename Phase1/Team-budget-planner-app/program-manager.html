@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+    <script src="finance_team_data.js"></script>
+    <style type="text/css">
+    
+        div {
+            
+         background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+
+        }  
+</style>
+</head>
+<body>
+    <div>
+        <form action="finance_team_data.js" method="POST">
+
+
+
+            
+            <label>Add new Budget</label><br/>
+            <hr>
+              
+                  <label for="name"><b>Client Name: </b></label>
+                  <input type="text" placeholder="Enter client name "  id="clientName" required="required"> <br/>
+              
+                  <label for="Project"><b>Project Name: </b></label>
+                  <input type="text" placeholder="Enter Project Name " id="projectname" required="required"><br/>
+              
+                  <label for="Budget"><b>Budget: </b></label>
+                  <input type="text" placeholder=" Enter Budget Amount " id="budget" required="required"><br/>
+
+                  
+            <input type="button" value="Add Data" onclick="storeData()"/>  
+            <input type="reset" value="Clear"  />  
+            </hr>             
+
+
+             
+                    </br>
+                </br>
+
+
+          <input type="button" value="Back" onclick="goback()"/><br/>
+             
+   
+         
+           
+            <hr/>
+        </form>
+
+        
+
+    </div>  
+</body>
+</html>
