@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suman Store</title>
+    <link rel="icon" href="https://i.pinimg.com/originals/bf/12/2b/bf122bfc08e7b4990fcfc04e7ede91b7.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+   
+    <nav class="navbar navbar-light bg-primary justify-content-center" style="background-color: #dbdbdb;">
+        <i style="font-size: 40px;"class="fas fa-shipping-fast"> &nbsp;
+                
+        </i>
+        <strong style="font-size: 30px;">Suman's Store</strong>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link link-light active" href="index.html">Our Collection</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-light active" href="index.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-light active" href="index.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-light active" href="index.html">Login</a>
+            </li>
+            <li class="nav-item">
+                <a id="navCartLink" class="nav-link link-light active" href="cart.html">Cart</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="pageTitle">
+            <h1>Suman Watch Station</h1>
+            <h4>All watches at same store!</h4>
+
+            <div class="productCatelog">
+
+                <div class="row">
+                    <div class="col">
+
+                        <div class="productListing" id="101">
+                            <img id="pic_101" class="productImage"src="https://www.time4diamonds.com/pub/media/wordpress/f6820d3cb542026837a9dc75b9f0c7e9.jpg" alt="">
+                            <p id="title_101" class="productTitle">Rolex</p>
+                            <p id="price_101">$4600</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_101()">
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="productListing" id="102">
+                            <img id="pic_102" class="productImage"src="https://storage.seikowatches.com/image/2021/04/13000317740155/0/210401_Presage_Brand_Image_for_Home_Page.png" alt="">
+                            <p id="title_102" class="productTitle">Presage Seiko </p>
+                            <p id="price_102">$3499</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_102()">                            
+                        </div>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="productListing" id="103">
+                            <img id="pic_103" class="productImage"src="https://www.watchresearcher.com/wp-content/uploads/Seiko-Solar-SSC143-e1598342300186.jpg" alt="">
+                            <p id="title_103" class="productTitle">Seiko Solar</p>
+                            <p id="price_103">$2899</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_103()">                            
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="productListing" id="104">
+                            <img id="pic_104" class="productImage"src="https://www.seikowatches.com/jp-ja/special/products/_nuxt/img/d3dc069.jpg" alt="">
+                            <p id="title_104" class="productTitle">Seiko Solar & GPS</p>
+                            <p id="price_104">$8800</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_104()">                            
+                        </div>  
+
+                    </div>
+                    <div class="col">
+                        <div class="productListing" id="105">
+                            <img id="pic_105" class="productImage"src="https://m.media-amazon.com/images/I/813DZ3bcu1L._AC_UX522_.jpg" alt="">
+                            <p id="title_105" class="productTitle">Infinity Band MK Watch/p>
+                            <p id="price_105">$899</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_105()">                            
+                        </div>  
+                        
+                    </div>
+                    <div class="col">
+                        <div class="productListing" id="106">
+                            <img id="pic_106" class="productImage"src="https://michaelkors.scene7.com/is/image/MichaelKors/MK6818-0205_IS?$ProductMain$&fmt=pjpeg" alt="">
+                            <p id="title_106" class="productTitle">Round Cut MK Women's</p>
+                            <p id="price_106">$750</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_106()">                            
+                        </div>  
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="productListing" id="107">
+                            <img id="pic_107" class="productImage"src="https://fossil.scene7.com/is/image/FossilPartners/FS4682-alt?$sfcc_fos_medium$" alt="">
+                            <p id="title_107" class="productTitle">Fossil for Men</p>
+                            <p id="price_107">$600</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_107()">                            
+                        </div>  
+
+                    </div>
+                    <div class="col">
+                        <div class="productListing" id="108">
+                            <img id="pic_108" class="productImage"src="https://i.pinimg.com/originals/5a/53/4e/5a534eabfcbd6fae9767c3c04e2f1b86.jpg" alt="">
+                            <p id="title_108" class="productTitle">Fossil Grey Men</p>
+                            <p id="price_108">$1200</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_108()">                            
+                        </div>  
+                        
+                    </div>
+                    <div class="col">
+                        <div class="productListing" id="109">
+                            <img id="pic_109" class="productImage"src="https://i.ebayimg.com/images/g/7SQAAOSwd4tTu-7G/s-l640.jpg" alt="">
+                            <p id="title_109" class="productTitle">Diesel Watch Men</p>
+                            <p id="price_109">$675</p>
+                            <input type="button" class="btn btn-primary" value="Add to Cart" onclick="product_109()">                            
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
