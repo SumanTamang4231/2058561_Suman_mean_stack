@@ -9,7 +9,7 @@ export class BackgroundDirective {
   constructor(private elRef: ElementRef,private renderer : Renderer2) { }
   @HostListener('click') onAnswered(){
     if (this.correctAnswer)
-      this.renderer.setStyle(this.elRef.nativeElement,'background-color','blue')
+      this.renderer.setStyle(this.elRef.nativeElement,'background-color','skyblue')
       else
       this.renderer.setStyle(this.elRef.nativeElement,'background-color','red')
   }
